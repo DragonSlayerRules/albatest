@@ -1,0 +1,31 @@
+<svg width="125" height="56" viewBox="0 0 125 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="125" height="56" fill="#DCDCDC"/>
+<g clip-path="url(#clip0_0_1)">
+<rect width="1440" height="4568" transform="translate(-170 -21)" fill="white"/>
+<g filter="url(#filter0_d_0_1)">
+<rect width="1440" height="97.57" transform="translate(-170 -21)" fill="white"/>
+<path d="M16.8 21.97C7.52 21.97 0 29.49 0 38.77C0 48.05 7.52 55.57 16.8 55.57C26.08 55.57 33.6 48.05 33.6 38.77C33.6 29.49 26.08 21.97 16.8 21.97ZM16.8 49.75C10.73 49.75 5.82 44.83 5.82 38.77C5.82 32.71 10.74 27.79 16.8 27.79C22.86 27.79 27.78 32.71 27.78 38.77C27.78 44.83 22.87 49.75 16.8 49.75Z" fill="#FFCE07"/>
+<path d="M71.3 21.97C62.02 21.97 54.5 29.49 54.5 38.77C54.5 48.05 62.02 55.57 71.3 55.57C80.58 55.57 88.1 48.05 88.1 38.77C88.1 29.49 80.58 21.97 71.3 21.97ZM71.3 49.75C65.23 49.75 60.32 44.83 60.32 38.77C60.32 32.71 65.24 27.79 71.3 27.79C77.36 27.79 82.28 32.71 82.28 38.77C82.28 44.83 77.37 49.75 71.3 49.75Z" fill="#FFCE07"/>
+<path d="M33.6 55.57C31.9 55.57 30.52 54.19 30.52 52.49V25.05C30.52 23.35 31.9 21.97 33.6 21.97C35.3 21.97 36.68 23.35 36.68 25.05V52.49C36.68 54.19 35.3 55.57 33.6 55.57Z" fill="#FFCE07"/>
+<path d="M121.7 55.57C120 55.57 118.62 54.19 118.62 52.49V25.05C118.62 23.35 120 21.97 121.7 21.97C123.4 21.97 124.78 23.35 124.78 25.05V52.49C124.77 54.19 123.4 55.57 121.7 55.57Z" fill="#FFCE07"/>
+<path d="M44.05 55.5701C42.35 55.5701 40.97 54.1901 40.97 52.4901V14.6401C40.97 12.9401 42.35 11.5601 44.05 11.5601C45.75 11.5601 47.13 12.9401 47.13 14.6401V52.4901C47.13 54.1901 45.75 55.5701 44.05 55.5701Z" fill="#FFCE07"/>
+<path d="M54.5 55.57C52.8 55.57 51.42 54.19 51.42 52.49V3.08C51.42 1.38 52.8 0 54.5 0C56.2 0 57.58 1.38 57.58 3.08V52.49C57.58 54.19 56.2 55.57 54.5 55.57Z" fill="#FFCE07"/>
+<path d="M104.9 21.97C95.62 21.97 88.1 29.49 88.1 38.77C88.1 48.05 95.62 55.57 104.9 55.57C114.18 55.57 121.7 48.05 121.7 38.77C121.7 29.49 114.18 21.97 104.9 21.97ZM104.9 49.75C98.83 49.75 93.92 44.83 93.92 38.77C93.92 32.71 98.84 27.79 104.9 27.79C110.96 27.79 115.88 32.71 115.88 38.77C115.88 44.83 110.96 49.75 104.9 49.75Z" fill="#FFCE07"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-180" y="-27" width="1460" height="117.57" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="4568" fill="white" transform="translate(-170 -21)"/>
+</clipPath>
+</defs>
+</svg>
