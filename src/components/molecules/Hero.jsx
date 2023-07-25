@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div>
       <div className="my-0 xl:my-12">
-        <div className="xl:container mx-auto xl:px-4 flex flex-col justify-center border border-red-700 mt-5 xxs:mt-10 md:mt-20 xl:mt-0 h-full xl:flex-row">
+        <div className="xl:container mx-auto xl:px-4 flex flex-col justify-center mt-5 xxs:mt-10 md:mt-20 xl:mt-0 h-full xl:flex-row">
           <div className="container mx-auto w-full xl:w-1/2 px-4 xl:px-0 z-10">
             <div className="text-2xl xxs:text-3xl sm:text-5xl lg:text-7xl">
               <div className="w-4 h-8 xl:w-10 xl:h-14 -translate-x-2 xl:-translate-x-6 border xl:border-2 border-black absolute"></div>
@@ -44,7 +44,6 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="h-screen"></div>
     </div>
   );
 }

@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Website Development",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/product/website"
+    },
+    {
+      "id": 2,
+      "title": "Mobile Apps Development",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/product/mobile"
+    },
+    {
+      "id": 3,
+      "title": "Digital Product Design",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/product/digital"
+    },
+    {
+      "id": 4,
+      "title": "Maintenance",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/product/maintenance"
+    },
+    {
+      "id": 5,
+      "title": "CMS development",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/product/cms"
+    },
+    {
+      "id": 6,
+      "title": "Intergrated payment gateway",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/product/payment"
+    }
+  ],
+  "portfolio": [
+    {
+      "product": "Mobile Apps",
+      "title": "Illios App (B2B E-commerance)",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/portfolio/Illios"
+    },
+    {
+      "product": "Website Development",
+      "title": "Home and Living",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/portfolio/homeAndLiving"
+    },
+    {
+      "product": "Hippo",
+      "title": "Hippo",
+      "description": "High performance bla bla bla bla bla bla bla bla bla",
+      "image_path": "assets/portfolio/hippo"
+    }    
+  ]
+}
