@@ -5,6 +5,21 @@ import mobile from "../assets/images/products/mobile.png";
 import payment from "../assets/images/products/payment.png";
 import website from "../assets/images/products/website.png";
 
+import aws from "../assets/images/tools/aws.png";
+import cloud from "../assets/images/tools/cloud.png";
+import angular from "../assets/images/tools/angular.png";
+import css from "../assets/images/tools/css.png";
+import html from "../assets/images/tools/html.png";
+import js from "../assets/images/tools/js.png";
+import php from "../assets/images/tools/php.png";
+import phyton from "../assets/images/tools/phyton.png";
+import react from "../assets/images/tools/react.png";
+import ruby from "../assets/images/tools/ruby.png";
+import mongo from "../assets/images/tools/mongo.png";
+import mysql from "../assets/images/tools/mysql.png";
+import postgres from "../assets/images/tools/postgres.png";
+import sqlserver from "../assets/images/tools/sqlserver.png";
+
 const postRegister = async (data) => {
   try {
     const response = await fetch("https://reqres.in/api/login", {
@@ -84,13 +99,31 @@ const getPortfolio = [
   }    
 ]
 
+const getTools =  [
+  aws,
+  cloud,
+  angular,
+  css,
+  html,
+  js,
+  php,
+  phyton,
+  react,
+  ruby,
+  mongo,
+  mysql,
+  postgres,
+  sqlserver
+];
+
 const post = {
   postRegister,
 };
 
 const get = {
   getProducts,
-  getPortfolio
+  getPortfolio,
+  getTools
 }
 
 
