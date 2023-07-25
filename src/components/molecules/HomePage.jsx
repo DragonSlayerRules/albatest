@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Hero from "../atoms/Hero";
 
 function HomePage() {
   return (
-    <div className='text-red-500'>HomePage</div>
-  )
+   <div>
+    <Hero/>
+   </div>
+  );
 }
 
-export default HomePage
+export default HomePage;
