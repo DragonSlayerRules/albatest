@@ -2,8 +2,8 @@ import React from "react";
 
 function SectionWrap({ children, param }) {
   return (
-    <div className="my-6 container mx-auto px-4">
-      <div className="text-center">
+    <div className="my-10 container mx-auto px-4">
+      <div className="text-center mb-4">
         <div className="text-stroke/50 font-normal text-lg">
           {param === "package"
             ? "Complete Package"

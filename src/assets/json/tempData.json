@@ -4,37 +4,37 @@
       "id": 1,
       "title": "Website Development",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/product/website"
+      "image_path": "website"
     },
     {
       "id": 2,
       "title": "Mobile Apps Development",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/product/mobile"
+      "image_path": "mobile"
     },
     {
       "id": 3,
       "title": "Digital Product Design",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/product/digital"
+      "image_path": "digital"
     },
     {
       "id": 4,
       "title": "Maintenance",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/product/maintenance"
+      "image_path": "maintenance"
     },
     {
       "id": 5,
       "title": "CMS development",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/product/cms"
+      "image_path": "cms"
     },
     {
       "id": 6,
       "title": "Intergrated payment gateway",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/product/payment"
+      "image_path": "payment"
     }
   ],
   "portfolio": [
@@ -42,19 +42,19 @@
       "product": "Mobile Apps",
       "title": "Illios App (B2B E-commerance)",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/portfolio/Illios"
+      "image_path": "Illios"
     },
     {
       "product": "Website Development",
       "title": "Home and Living",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/portfolio/homeAndLiving"
+      "image_path": "homeAndLiving"
     },
     {
       "product": "Hippo",
       "title": "Hippo",
       "description": "High performance bla bla bla bla bla bla bla bla bla",
-      "image_path": "assets/portfolio/hippo"
+      "image_path": "hippo"
     }    
   ]
 }
