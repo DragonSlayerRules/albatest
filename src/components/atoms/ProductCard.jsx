@@ -1,41 +1,11 @@
 import React from "react";
-import cms from "../../assets/images/products/cms.png";
-import digital from "../../assets/images/products/digital.png";
-import maintenance from "../../assets/images/products/maintenance.png";
-import mobile from "../../assets/images/products/mobile.png";
-import payment from "../../assets/images/products/payment.png";
-import website from "../../assets/images/products/website.png";
 import arrowLeft from "../../assets/icons/arrowLeft.svg";
 
 function ProductCard({ data }) {
-  let image;
-  switch (data.image_path) {
-    case "cms":
-      image = cms;
-      break;
-    case "digital":
-      image = digital;
-      break;
-    case "maintenance":
-      image = maintenance;
-      break;
-    case "mobile":
-      image = mobile;
-      break;
-    case "payment":
-      image = payment;
-      break;
-    case "website":
-      image = website;
-      break;
-    default:
-      image = null; // Provide a default image or handle the case when image_path doesn't match any of the cases
-  }
-
   return (
     <div className="aspect-[3/1] w-full px-4 py-2 rounded-2xl border-2 border-stroke/20 hover:border-secondary duration-500 cursor-pointer flex gap-4 items-center">
       <img
-        src={image}
+        src={data.image_path}
         alt=""
         className="w-10 h-fit aspect-square obeject-cover"
       />

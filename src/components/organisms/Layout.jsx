@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/alba-logo.svg";
+import logo from "../../assets/icons/alba-logo.svg";
 
 function Layout({ children }) {
   const [openMenu, setOpenMenu] = useState();
