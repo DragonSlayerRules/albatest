@@ -5,24 +5,25 @@ function Layout({ children }) {
   const [openMenu, setOpenMenu] = useState();
   return (
     <div className="">
-      <div className="shadow-md py-2 bg-primary sticky top-0 z-50">
-        <div className="mx-auto container px-4 h-full flex justify-between items-center font-revxBold my-5 z-50">
-          <img src={logo} className="h-10 sm:w-fit object-contain" alt="" />
+      <div className="shadow-md py-4 bg-primary sticky top-0 z-50">
+        <div className="mx-auto container px-4 h-full flex justify-between items-center font-revxBold z-50">
+          <img src={logo} className="w-16 sm:w-fit object-contain" alt="" />
           <div className="sm:w-2/3 items-end flex flex-col">
             <div
-              className="flex gap-2 md:hidden"
+              className="space-y-1.5 md:hidden"
               onClick={() => {
                 openMenu ? setOpenMenu(false) : setOpenMenu(true);
               }}
             >
-              <div className="h-3 w-3 border-2 rounded-full border-black"></div>
-              <div className="h-3 w-3 border-2 rounded-full border-black"></div>
-              <div className="h-3 w-3 border-2 rounded-full border-black"></div>
+              <div className={`${openMenu ? '-translate-y-20' : ''} h-1 w-8 bg-stroke duration-1000`}></div>
+              <div className={`${openMenu ? '-rotate-45 absolute' : 'rotate-0'} h-1 w-8 bg-stroke duration-500`}></div>
+              <div className={`${openMenu ? 'rotate-45 ' : 'rotate-0'} h-1 w-8 bg-stroke duration-500`}></div>
+
             </div>
             <div
               className={`${
                 openMenu ? "h-72" : "h-0"
-              } overflow-hidden absolute transition-all duration-500 px-2 md:p-0 md:relative flex flex-col-reverse md:flex-row items-center justify-center translate-y-12  bg-primary md:bg-transparent gap-2 md:gap-0  md:translate-y-0 md:w-full md:h-fit md:justify-between text-xl z-50`}
+              } overflow-hidden absolute transition-all duration-500 px-2 md:p-0 md:relative flex flex-col-reverse md:flex-row items-center justify-center translate-y-10  bg-primary md:bg-transparent gap-2 md:gap-0  md:translate-y-0 md:w-full md:h-fit md:justify-between text-xl z-50`}
             >
               <div>Service</div>
               <div>About</div>
