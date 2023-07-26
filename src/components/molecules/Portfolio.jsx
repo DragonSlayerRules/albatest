@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <SectionWrap param="portfolio">
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 xl:w-4/5 mx-auto">
-        {get.getPortfolio.map((unit, index) => (
+        {get.getPortfolios.map((unit, index) => (
           <div key={index}>
             <PortofolioCard data={unit} />
           </div>

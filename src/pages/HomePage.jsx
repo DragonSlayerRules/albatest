@@ -5,6 +5,7 @@ import Portfolio from "../components/molecules/Portfolio";
 import Testimonial from "../components/molecules/Testimonial";
 import Tools from "../components/molecules/Tools";
 import Works from "../components/molecules/Works";
+import Clients from "../components/molecules/Clients";
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
       <Works/>
       <Portfolio />
       <Testimonial />
+      <Clients/>
     </div>
   );
 }
