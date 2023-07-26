@@ -1,7 +1,6 @@
 import React from "react";
 
 function TestimonialCard({ data }) {
-  console.log(data);
   return (
     <div className={`${data.type === "primary" ? "scale-100" : "scale-75 origin-top-left"} border border-black`}>
       <div className="text-4xl font-bold">{data.title}</div>

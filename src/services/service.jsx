@@ -33,7 +33,7 @@ import logo_homeaAndLiving from "../assets/images/clients/homeaAndLiving.png";
 import logo_ilios from "../assets/images/clients/ilios.png";
 import logo_melandas from "../assets/images/clients/melandas.png";
 
-const postRegister = async (data) => {
+const postLogin = async (data) => {
   try {
     const response = await fetch("https://reqres.in/api/login", {
       method: "POST",
@@ -51,6 +51,7 @@ const postRegister = async (data) => {
     console.error(error);
   }
 };
+
 
 const getProducts = [
   {
@@ -194,7 +195,7 @@ const getClients = [
 ];
 
 const post = {
-  postRegister,
+  postLogin,
 };
 
 const get = {

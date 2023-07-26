@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/icons/alba-logo.svg";
+import { Link } from "react-router-dom";
 
 function Layout({ children }) {
   const [openMenu, setOpenMenu] = useState();
@@ -7,7 +8,9 @@ function Layout({ children }) {
     <div className="">
       <div className="shadow-md py-4 bg-primary sticky top-0 z-50">
         <div className="mx-auto container px-4 h-full flex justify-between items-center font-revxBold z-50">
-          <img src={logo} className="w-16 sm:w-fit object-contain" alt="" />
+          <Link to="/">
+            <img src={logo} className="w-16 sm:w-fit object-contain" alt="" />
+          </Link>
           <div className="sm:w-2/3 items-end flex flex-col">
             <div
               className="space-y-1.5 md:hidden"
@@ -15,10 +18,21 @@ function Layout({ children }) {
                 openMenu ? setOpenMenu(false) : setOpenMenu(true);
               }}
             >
-              <div className={`${openMenu ? '-translate-y-20' : ''} h-1 w-8 bg-stroke duration-1000`}></div>
-              <div className={`${openMenu ? '-rotate-45 absolute' : 'rotate-0'} h-1 w-8 bg-stroke duration-500`}></div>
-              <div className={`${openMenu ? 'rotate-45 ' : 'rotate-0'} h-1 w-8 bg-stroke duration-500`}></div>
-
+              <div
+                className={`${
+                  openMenu ? "-translate-y-20" : ""
+                } h-1 w-8 bg-stroke duration-1000`}
+              ></div>
+              <div
+                className={`${
+                  openMenu ? "-rotate-45 absolute" : "rotate-0"
+                } h-1 w-8 bg-stroke duration-500`}
+              ></div>
+              <div
+                className={`${
+                  openMenu ? "rotate-45 " : "rotate-0"
+                } h-1 w-8 bg-stroke duration-500`}
+              ></div>
             </div>
             <div
               className={`${
@@ -30,12 +44,13 @@ function Layout({ children }) {
               <div>Portfolio</div>
               <div>Blog</div>
               <div>Career</div>
-              <a
+              <Link
+                to="/auth/login"
                 href="#contact"
                 className="px-4 py-2 rounded-full bg-secondary border border-stroke"
               >
-                Contact US
-              </a>
+                LOGIN
+              </Link>
             </div>
           </div>
         </div>
@@ -80,10 +95,10 @@ function Layout({ children }) {
               </div>
             </div>
           </div>
-         <div className="flex flex-col sm:flex-row justify-between text-stroke/50">
-         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-         <div>adipisicing elit.</div>
-         </div>
+          <div className="flex flex-col sm:flex-row justify-between text-stroke/50">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div>adipisicing elit.</div>
+          </div>
         </div>
       </div>
     </div>
