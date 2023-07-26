@@ -5,7 +5,7 @@ function ProductCard({ data }) {
   return (
     <div className="aspect-[3/1] w-full px-4 py-2 rounded-2xl border-2 border-stroke/20 hover:border-secondary duration-500 cursor-pointer flex gap-4 items-center">
       <img
-        src={data.image_path}
+        src={data.image}
         alt=""
         className="w-10 h-fit aspect-square obeject-cover"
       />

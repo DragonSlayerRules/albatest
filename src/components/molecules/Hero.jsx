@@ -1,6 +1,6 @@
 import React from "react";
 import banner from "../../assets/images/hero/Banner.png";
-import buttons from "../protons/buttons";
+import Buttons from "../protons/Buttons";
 import dotsOne from "../../assets/images/hero/dotsOne.png";
 import dotsTwo from "../../assets/images/hero/dotsTwo.png";
 
@@ -24,7 +24,7 @@ function Hero() {
               </div>
             </div>
             <div className="xl:mt-8">
-              <buttons.secondary data="BOOK NOW" />
+              <Buttons.secondary data="BOOK NOW" />
             </div>
           </div>
           <div className="w-full xl:w-1/2 absolute xl:relative">
