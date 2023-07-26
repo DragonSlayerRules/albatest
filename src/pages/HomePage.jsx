@@ -6,6 +6,7 @@ import Testimonial from "../components/molecules/Testimonial";
 import Tools from "../components/molecules/Tools";
 import Works from "../components/molecules/Works";
 import Clients from "../components/molecules/Clients";
+import CallAction from "../components/molecules/CallAction";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <Portfolio />
       <Testimonial />
       <Clients/>
+      <CallAction/>
     </div>
   );
 }
