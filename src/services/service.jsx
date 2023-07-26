@@ -116,6 +116,21 @@ const getTools =  [
   sqlserver
 ];
 
+const getWorks = [
+  {
+    ammount: 1000,
+    title: "designs"
+  },
+  {
+    ammount: 30,
+    title: "products"
+  },
+  {
+    ammount: 58,
+    title: "website development"
+  },
+]
+
 const post = {
   postRegister,
 };
@@ -123,7 +138,8 @@ const post = {
 const get = {
   getProducts,
   getPortfolio,
-  getTools
+  getTools,
+  getWorks
 }
 
 
