@@ -9,7 +9,7 @@ function Layout({ children }) {
       <div className="shadow-md py-4 bg-primary sticky top-0 z-50">
         <div className="mx-auto container px-4 h-full flex justify-between items-center font-revxBold z-50">
           <Link to="/">
-            <img src={logo} className="w-16 sm:w-fit object-contain" alt="" />
+            <img src={logo} className="w-20 sm:w-fit object-contain" alt="" />
           </Link>
           <div className="sm:w-2/3 items-end flex flex-col">
             <div

@@ -5,8 +5,8 @@ function Clients() {
   return (
     <div className="flex container mx-auto px-4 justify-center">
       <div className="flex">
-        {get.getClients.map((unit) => (
-          <img src={unit} alt=""></img>
+        {get.getClients.map((unit, index) => (
+          <img src={unit} alt="" key={index}></img>
         ))}
       </div>
     </div>
