@@ -2,7 +2,7 @@ import React from "react";
 import SectionWrap from "../organisms/SectionWrap";
 import PortofolioCard from "../atoms/PortofolioCard";
 import { get } from "../../services/service";
-import Buttons from "../protons/Buttons";
+import buttons from "../protons/buttons";
 
 function Portfolio() {
   return (
@@ -15,7 +15,7 @@ function Portfolio() {
         ))}
       </div>
       <div className="mx-auto flex justify-center mt-4">
-        <Buttons.secondary data="load more" />
+        <buttons.secondary data="load more" />
       </div>
     </SectionWrap>
   );

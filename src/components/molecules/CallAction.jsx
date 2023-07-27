@@ -1,5 +1,5 @@
 import React from "react";
-import Buttons from "../protons/Buttons";
+import buttons from "../protons/buttons";
 
 function CallAction() {
   return (
@@ -11,7 +11,7 @@ function CallAction() {
           </div>
           <div className="text-4xl">Build it with Albatech</div>
           <div className="mt-6">
-            <Buttons.primary data="Consultation Now" />
+            <buttons.primary data="Consultation Now" />
           </div>
         </div>
       </div>

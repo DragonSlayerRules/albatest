@@ -1,6 +1,6 @@
 import React from "react";
 import banner from "../../assets/images/hero/Banner.png";
-import Buttons from "../protons/Buttons";
+import buttons from "../protons/buttons";
 import dotsOne from "../../assets/images/hero/dotsOne.png";
 import dotsTwo from "../../assets/images/hero/dotsTwo.png";
 
@@ -25,7 +25,7 @@ function Hero() {
               </div>
             </div>
             <div className="xl:mt-8 border-emerald-400 border-2 flex justify-center md:justify-start">
-              <Buttons.secondary data="BOOK NOW" />
+              <buttons.secondary data="BOOK NOW" />
             </div>
           </div>
           {/*  */}
